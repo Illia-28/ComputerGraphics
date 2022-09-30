@@ -1,4 +1,4 @@
-# computer_graphics
+# Computer Graphics
 Laboratory works on the subject of computer graphics.
 
 ## laba1 Algorithms for rasterization of graphic primitives 
