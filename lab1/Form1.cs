@@ -235,12 +235,12 @@ namespace lab1
             Console.Write(sWatch.ElapsedMilliseconds.ToString());
         }
 
-        //Целая часть числа
+        //Ціла частина числа
         private static int IPart(float x)
         {
             return (int)x;
         }
-        //дробная часть числа
+        //дробова частина числа
         private static float FPart(float x)
         {
             while (x >= 0)
@@ -251,70 +251,70 @@ namespace lab1
 
         public static void DrawWuLine(Graphics g, Color clr, int x0, int y0, int x1, int y1)
         {
-            //Вычисление изменения координат
+            //Обчислення зміни координат
             int dx = (x1 > x0) ? (x1 - x0) : (x0 - x1);
             int dy = (y1 > y0) ? (y1 - y0) : (y0 - y1);
-            //Если линия параллельна одной из осей, рисуем обычную линию - заполняем все пикселы в ряд
+            //Якщо лінія паралельна до однієї з осей, малюємо звичайну лінію - заповнюємо всі пікселі в ряд
             if (dx == 0 || dy == 0)
             {
                 g.DrawLine(new Pen(clr), x0, y0, x1, y1);
                 return;
             }
 
-            //Для Х-линии (коэффициент наклона < 1)
+            //Для Х-лінії (коефіцієнт нахилу < 1)
             if (dy < dx)
             {
-                //Первая точка должна иметь меньшую координату Х
+                //Перша точка повинна мати меншу координату Х
                 if (x1 < x0)
                 {
                     x1 += x0; x0 = x1 - x0; x1 -= x0;
                     y1 += y0; y0 = y1 - y0; y1 -= y0;
                 }
-                //Относительное изменение координаты Y
+                //Відносна зміна координати Y
                 float grad = (float)dy / dx;
-                //Промежуточная переменная для Y
+                //Проміжна змінна для Y
                 float intery = y0 + grad;
-                //Первая точка
+                //Перша точка
                 PutPixel(g, clr, x0, y0, 255);
 
                 for (int x = x0 + 1; x < x1; x++)
                 {
                     //Верхняя точка
                     PutPixel(g, clr, x, IPart(intery), (int)(255 - FPart(intery) * 255));
-                    //Нижняя точка
+                    //Нижня точка
                     PutPixel(g, clr, x, IPart(intery) + 1, (int)(FPart(intery) * 255));
-                    //Изменение координаты Y
+                    //Зміна координати Y
                     intery += grad;
                 }
-                //Последняя точка
+                //Остання точка
                 PutPixel(g, clr, x1, y1, 255);
             }
-            //Для Y-линии (коэффициент наклона > 1)
+            //Для Y-лінії (коефіцієнт нахилу > 1)
             else
             {
-                //Первая точка должна иметь меньшую координату Y
+                //Перша точка повинна мати меншу координату Y
                 if (y1 < y0)
                 {
                     x1 += x0; x0 = x1 - x0; x1 -= x0;
                     y1 += y0; y0 = y1 - y0; y1 -= y0;
                 }
-                //Относительное изменение координаты X
+                //Відносна зміна координати X
                 float grad = (float)dx / dy;
-                //Промежуточная переменная для X
+                //Проміжна змінна для X
                 float interx = x0 + grad;
                 //Первая точка
                 PutPixel(g, clr, x0, y0, 255);
 
                 for (int y = y0 + 1; y < y1; y++)
                 {
-                    //Верхняя точка
+                    //Верхня точка
                     PutPixel(g, clr, IPart(interx), y, 255 - (int)(FPart(interx) * 255));
-                    //Нижняя точка
+                    //Нижня точка
                     PutPixel(g, clr, IPart(interx) + 1, y, (int)(FPart(interx) * 255));
-                    //Изменение координаты X
+                    //Зміна координат X
                     interx += grad;
                 }
-                //Последняя точка
+                //Остання точка
                 PutPixel(g, clr, x1, y1, 255);
             }
         }
@@ -329,7 +329,7 @@ namespace lab1
             sWatch.Start();
 
             Graphics g = pictureBox1.CreateGraphics();
-            DrawWuLine(g, Color.Black, 100, 250, pictureBox1.Width - 150, pictureBox1.Height - 100);
+            DrawWuLine(g, Color.Black, 100, 250, pictureBox1.Width - 50, pictureBox1.Height - 50);
 
             sLine.Stop();
 

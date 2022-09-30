@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KPI\\3_course\\grafic\\lab1\\lab1.csproj": {}
+    "D:\\Personal\\github\\ComputerGraphics\\lab1\\lab1.csproj": {}
   },
   "projects": {
-    "D:\\KPI\\3_course\\grafic\\lab1\\lab1.csproj": {
+    "D:\\Personal\\github\\ComputerGraphics\\lab1\\lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KPI\\3_course\\grafic\\lab1\\lab1.csproj",
+        "projectUniqueName": "D:\\Personal\\github\\ComputerGraphics\\lab1\\lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "D:\\KPI\\3_course\\grafic\\lab1\\lab1.csproj",
+        "projectPath": "D:\\Personal\\github\\ComputerGraphics\\lab1\\lab1.csproj",
         "packagesPath": "C:\\Users\\Illia\\.nuget\\packages\\",
-        "outputPath": "D:\\KPI\\3_course\\grafic\\lab1\\obj\\",
+        "outputPath": "D:\\Personal\\github\\ComputerGraphics\\lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Illia\\AppData\\Roaming\\NuGet\\NuGet.Config",
