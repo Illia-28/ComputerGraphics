@@ -69,7 +69,7 @@ namespace lab2
         private void button1_Click(object sender, EventArgs e)
         {
             G = Graphics.FromHwnd(pictureBox1.Handle);
-            G.Clear(Color.White);
+            //G.Clear(Color.White);
             G.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             Draw(Arr1);
         }
