@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KPI\\3_course\\grafic\\lab2\\lab2.csproj",
+      "projectUniqueName": "D:\\Personal\\github\\ComputerGraphics\\lab2\\lab2.csproj",
       "projectName": "lab2",
-      "projectPath": "D:\\KPI\\3_course\\grafic\\lab2\\lab2.csproj",
+      "projectPath": "D:\\Personal\\github\\ComputerGraphics\\lab2\\lab2.csproj",
       "packagesPath": "C:\\Users\\Illia\\.nuget\\packages\\",
-      "outputPath": "D:\\KPI\\3_course\\grafic\\lab2\\obj\\",
+      "outputPath": "D:\\Personal\\github\\ComputerGraphics\\lab2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Illia\\AppData\\Roaming\\NuGet\\NuGet.Config",

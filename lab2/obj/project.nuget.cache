@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+eEGgIU/5EVc1e7o+60zJssrPP2v3ZE2zX7G0ZB7ch3C3Ggc4uG/sSKnM1iJtF8BgUSkIUqDlyng8EFW1UQcnQ==",
+  "dgSpecHash": "tmrEhf+uMY2UYYg56CeFsQTd7Dc4Oe8WTWkyhFqn12NEc2FZf/wYi9LdqfkQVK9k8gH2VFU2qYoUkR30EAHHJw==",
   "success": true,
-  "projectFilePath": "D:\\KPI\\3_course\\grafic\\lab2\\lab2.csproj",
+  "projectFilePath": "D:\\Personal\\github\\ComputerGraphics\\lab2\\lab2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Illia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
