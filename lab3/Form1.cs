@@ -192,8 +192,8 @@ namespace lab3
             label5.Text = ts2.TotalMilliseconds + " ms";
             label4.Visible = true;
             label5.Visible = true;
-            bmp1.Save(@"D:\FormsKG2\MyNew.png");
-            bmp2.Save(@"D:\FormsKG2\MyNewSecond.png");
+            bmp1.Save(@"\KPI\3_course\grafic\lab3\MyNew.png");
+            bmp2.Save(@"D:\KPI\3_course\grafic\lab3\MyNewSecond.png");
             pictureBox2.Image = bmp1;
             pictureBox4.Image = bmp2;
         }
