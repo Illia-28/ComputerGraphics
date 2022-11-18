@@ -1,0 +1,16 @@
+D:\KPI\3_course\grafic\lab4\bin\Debug\netcoreapp3.1\lab4.exe
+D:\KPI\3_course\grafic\lab4\bin\Debug\netcoreapp3.1\lab4.deps.json
+D:\KPI\3_course\grafic\lab4\bin\Debug\netcoreapp3.1\lab4.runtimeconfig.json
+D:\KPI\3_course\grafic\lab4\bin\Debug\netcoreapp3.1\lab4.runtimeconfig.dev.json
+D:\KPI\3_course\grafic\lab4\bin\Debug\netcoreapp3.1\lab4.dll
+D:\KPI\3_course\grafic\lab4\bin\Debug\netcoreapp3.1\lab4.pdb
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.csproj.AssemblyReference.cache
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.Form1.resources
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.csproj.GenerateResource.cache
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.AssemblyInfoInputs.cache
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.AssemblyInfo.cs
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.csproj.CoreCompileInputs.cache
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.dll
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.pdb
+D:\KPI\3_course\grafic\lab4\obj\Debug\netcoreapp3.1\lab4.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "doEraqhmTYnrvBoBIpURCt6SSRs2UhH7ZGJrqCyXbu586zxsAhY0208ljbv52dgg0bqh0s5Q/6pWB5+rPy99Uw==",
+  "success": true,
+  "projectFilePath": "D:\\KPI\\3_course\\grafic\\lab4\\lab4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Illia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
