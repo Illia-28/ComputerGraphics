@@ -44,3 +44,19 @@ Software to implement 4 different filling algorithms (optional) of arbitrarily d
 1. Set the screen areas of two types (polygon and arbitrary outline).
 2. Fill the specified areas with some color.
 3. Compare the implemented speed algorithms (on the example of filling one of the circuits).
+
+## laba4 Fractal graphics
+
+**The purpose of the work:**
+to get acquainted with the methods of construction and types of fractals in practical experience.
+ 
+**Problem statement: **
+programmatically implement playback on fractal monitor screens.
+ 
+**Fractals for play:**
+- Koch curve / snowflake;
+- Mandelbrot set;
+- a branch of a fern.
+ 
+**Task for laboratory work:**
+Display each of the fractals on the monitor screen.
